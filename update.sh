@@ -13,3 +13,6 @@ git push origin master
 
 coscmd upload config.js config.js
 coscmd upload config.json config.json
+
+filemgr --action upload --bucket http6 --key config.js --file config.js
+filemgr --action upload --bucket http6 --key config.json --file config.json
